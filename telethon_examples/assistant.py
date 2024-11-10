@@ -48,9 +48,9 @@ def get_env(name, message, cast=str):
             time.sleep(1)
 
 
-API_ID = get_env('TG_API_ID', 'Enter your API ID: ', int)
-API_HASH = get_env('TG_API_HASH', 'Enter your API hash: ')
-TOKEN = get_env('TG_TOKEN', 'Enter the bot token: ')
+API_ID = get_env('26397851', 'Enter your API ID: ', int)
+API_HASH = get_env('bb9c1429fc139805d7e043d097454b68', 'Enter your API hash: ')
+TOKEN = get_env('7694366211:AAEtV5hSvpY8AuFZHta9F37mMT08G7IMkk0', 'Enter the bot token: ')
 NAME = TOKEN.split(':')[0]
 
 
